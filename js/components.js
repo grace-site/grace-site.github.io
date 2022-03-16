@@ -80,7 +80,7 @@ class Footer extends HTMLElement {
             <p>
                 ..
                 <br>
-                http://gracechan.net
+                https://grace-site.github.io/
                 <br>
                 All content by Hiu Yan Chan and collaborators. 
                 <br>
