@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Individualist Chess</h1>
+                </div>
+                
+                <div class="iframe-wrapper">
+                    <iframe src="https://www.youtube.com/embed/BIRR2ntRWvc" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        "Individualist Chess", 2019
+                        <br>
+                        Mutated Chinese chess game created with Processing
+                        <br>
+                        <br>
+                        “Individualist Chess” is an explorational artwork based on the question, “What if in a game of chess,
+                        every piece made their own decisions based on their own desires and fears, with no single
+                        sovereignty?” In the work, each chess piece is its own agent within the system, driven by its desire to
+                        eat others and its fear to die. The simulation unveils interesting social phenomenon in an
+                        individualistic society where the lack of a central command causes the team to lose direction,
+                        strategy, and cooperation. Further interesting observations could be explored by altering the values
+                        of each chess piece, or even of a team. Perhaps one team’s fear-of-death value is negative,
+                        comprising a suicidal society. Perhaps the society upholds equality such that the general is of no
+                        greater worth than the soldier, reforming the entire goal of the traditional game. Various situations
+                        are possible in each play of the work, as it is a structure for potential situations within the
+                        constraints of the system. Even if all values are maintained constant, each play would still vary by the
+                        randomness incorporated in each move. A small change early on in the game could change the
+                        outcome drastically since the chess world is such a complex system. The scope of this artwork runs
+                        from the simulation of agents to the phenomenon of a society to the values of humanity. Ultimately,
+                        there is no single premise. The piece invites one to interact with the game, explore the social
+                        possibilities, and examine their own worldview.
+                    </p>
+                </div>
+                <img src="/images/coding/individualist01.png" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        Each chess agent has the following behavioural rules:
+                        <br>
+                        1. When it is this agent's turn, it moves to the possible move that is most weighty.
+                        <br>
+                        2. If there are multiple possible moves that are the weightiest, choose randomly among them.
+                        <br>
+                        The weight of possible moves are calculated based on worth and fear-of-death values. If a possible
+                        move allows the piece to eat another piece, then the worth of the eaten piece is added to the
+                        weight. If a possible move puts the piece in danger of being eaten, then the fear-of-death of the
+                        piece is subtracted from the weight.
+                    </p>
+                </div>
+                <img src="/images/coding/individualist02.png" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        How to Play:
+                        <br>
+                        <br>
+                        Here is a basic user manual for playing the game. There is no “goal” or “winning” in this game, but
+                        rather the player is invited to play around the values and observe interesting situations and decisions
+                        the game makes.
+                        <br>
+                        Hit SPACEBAR to view the next move.
+                        <br>
+                        Click NEW GAME to start over.
+                        <br>
+                        Click DISPLAY WEIGHT to toggle the display of the weights of the possible moves.
+                        <br>
+                        <br>
+                        To edit the worth and the fear-of-death values of the chess pieces:
+                        <br>
+                        1. First click on the input box
+                        <br>
+                        2. Type the desired value. Make sure it is an integer
+                        <br>
+                        3. Hit ENTER
+                        <br>
+                        <br>
+                        When NEW GAME is clicked, all
+                        chess pieces are revived at their original positions with their default worth and fear-of-death values.
+                        <br>
+                        <br>
+                        For more documentation, click this 
+                        <a href="/pdf/Individualist Chess.pdf" target="_blank">
+                            pdf
+                            <i data-feather="external-link" class="px12" onclick="backpage()"></i>
+                        </a>.
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

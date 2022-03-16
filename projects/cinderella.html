@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Cinderella</h1>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe src="https://www.youtube.com/embed/l8rPfadcxl0" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN, Alana ALEXANDRA, Tsz Wai TSANG & Hin Ki TSANG
+                        <br>
+                        "Cinderella", 2021
+                        <br>
+                        AR word game, using Hololens, Unity, Python, Mixed Reality Toolkit, Vuforia, Visual Studio IDE
+                        <br>
+                        <br>
+                        Inspired by the interactive fiction "Counterfeit Monkey" by Emily Short, the game turns the world into objects manipulatable by the spelling of its name.
+                        To bring this to life, augmented reality allows for an immersive and interactive experience of the game. 
+                        Combined with Vuforia spatial tracking, real objects and virtual objects coexisted in this story-themed word puzzle. 
+                        
+                    </p>
+                </div>
+                <img src="/images/coding/cinderella10.jpg" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        Cinderella wants to go to the ball, but she needs a ballgown and a way to get there! Her fairy godmother left her with magic powers to transform objects.
+                        The trick is this: She can combine two different words, or
+                        remove any one letter from a word, and it will transform into a new object. 
+                        <br>
+                        <br>
+                        For example, she can remove the P from PEAR to make an EAR by pressing the letter.
+                    </p>
+                </div>
+                <div class="two-column-wrapper">
+                    <img src="/images/coding/cinderella04.jpg" alt="">
+                    <img src="/images/coding/cinderella05.jpg" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Then she can combine EAR with RINGS to get EARRINGS for her ballgown accessories.
+                    </p>
+                </div>
+                <div class="two-column-wrapper">
+                    <img src="/images/coding/cinderella07.jpg" alt="">
+                    <img src="/images/coding/cinderella09.jpg" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        The EARRINGS will then appear on the mannequin. Collect a complete costume and a way to travel to win the game! But be careful, you can also lose the game if you're uncareful...
+                    </p>
+                </div>
+                <img src="/images/coding/cinderella01.jpg" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        In this project, we used Mixed Reality Toolkit in Unity to build a game that can be deployed to Hololens. 
+                        Initially, we wanted to use object tracking for live interaction. 
+                        But due to difficulties tracking objects reliably, we changed to using Vuforia spatial tracking to scan the room.
+                        We predetermined and mapped each object to a location in the room, and interacted with the virtual object.
+                        I coded the game logic in Python, programmed a system that manages the letter-word possibilities and winning conditions.
+                        <br>
+                        <br>
+                        For more documentation, click this 
+                        <a href="/pdf/Cinderella.pdf" target="_blank">
+                            pdf
+                            <i data-feather="external-link" class="px12" onclick="backpage()"></i>
+                        </a>.
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

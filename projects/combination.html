@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Comb in ati on</h1>
+                </div>
+                <div class="iframe-wrapper iframe-increase-height">
+                    <iframe src="https://player.vimeo.com/video/684617597" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN & Tsz Wai TSANG
+                        <br>
+                        "Comb in ati on", 2019
+                        <br>
+                        coded with HE_Mesh library in Processing java
+                        <br>
+                        <br>
+                        An exploration on the mathematics of calculating combination possibilities with an addition-based, fractal-like number pattern.
+                        <br>
+                        The clip demonstrates the generation of mesh by the L-system.
+                    </p>
+                </div>
+                <div class="small-column-wrapper">
+                    <img src="/images/coding/combination01.png" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        The tree-like sculpture is generated with
+                        an L-System that models the
+                        mathematics of calculating the number
+                        of possible combinations. This specific
+                        piece represents the number pattern of
+                        the possible combinations of 8 out of
+                        10. The algorithm utilizes a binary-based
+                        addition, rather than the conventional
+                        factorial formula, a path that seems
+                        senseless from an efficiency point of
+                        view. However, as one gazes at the
+                        aesthetics of the sculpture, the
+                        intriguing fractal patterns of the number
+                        series, one discovers the endless
+                        possibilities of the unexplored realm of
+                        inefficient mathematics.
+                        <br>
+                        <br>
+                        For more documentation, click this 
+                        <a href="/pdf/Comb ina ti on.pdf" target="_blank">
+                            pdf
+                            <i data-feather="external-link" class="px12" onclick="backpage()"></i>
+                        </a>.
+                
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

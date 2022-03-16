@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Serialist Origami</h1>
+                </div>
+                <img src="/images/installation/serialist00.jpg" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        "Serialist Origami", 2020
+                        <br>
+                        Three triads folded from uncut square paper of 210mm x 210mm, logic coded in Processing
+                    </p>
+                </div>
+                <img src="/images/installation/serialist01.jpg" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        “Serialist Origami” is an origami piece that adopts an untraditional approach to paper
+                        folding, arranging the steps by serialism. The arrangement of folding steps are not
+                        determined by the intended appearance of the final piece, but rather by a boolean flowchart
+                        cycle. The decisions within the structure is controlled by chaos theory. The artwork ventures
+                        to break through conventional origami that follows symmetry, whether representational or
+                        geometric. It explores new possibilities of origami that focuses on procedure and
+                        emphasizes the nature of different types of folds, seeing the means as the ends.
+                    </p>
+                </div>
+                <img src="/images/installation/serialist02.jpg" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        Twelve types of common folding techniques are defined as a series of objects.
+                        <br>
+                        <br>
+                        The types of origami folds are then divided into three categories. From these three
+                        categories will be created the three triads, thus giving each triad its unique style and
+                        characteristics from the types of folds.
+
+                    </p>
+                </div>
+                <img src="/images/installation/serialist03.jpg" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        For more documentation, click this 
+                        <a href="/pdf/Serialist Origami.pdf" target="_blank">
+                            pdf
+                            <i data-feather="external-link" class="px12" onclick="backpage()"></i>
+                        </a>.
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

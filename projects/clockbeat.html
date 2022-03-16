@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Clockbeat</h1>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe src="https://player.vimeo.com/video/267243494" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        "Clockbeat", 2018
+                        <br>
+                        Installation with a clock, stethoscope, microphone, speaker
+                        <br>
+                        <br>
+                        This clock has a sentimental value to me. 
+                        For ten years, I grew up in Africa, and this clock has accompanied me throughout my high school years. 
+                        It woke me up every morning with its beep beep beep, and shown me to sleep at night. 
+                        Now, I have come back to Hong Kong, a whole eight-hour time difference. 
+                        But still, I left it running. African time. It lives on. Its battery still running. Its hands still moving. Its heart still beating. But one day, it will stop.
+                        <br>
+                        <br>
+
+                        Clockbeat is an object installation piece, composed of my personal alarm clock, with a stethoscope attached to it. 
+                        The stethoscope then attaches to a microphone that records the beating of the clock. 
+                        The beating is amplified and played aloud by the speakers.
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

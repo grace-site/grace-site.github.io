@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Swift to Hear</h1>
+                </div>
+                
+                <img src="/images/graphic-design/swift01.png" alt="">
+                
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        "Swift to Hear", 2019
+                        <br>
+                        A set of deep talk card game, designed in Illustrator
+                    </p>
+                </div>
+                <div class="three-column-wrapper">
+                    <img src="/images/graphic-design/swift02.png" alt="">
+                    <img src="/images/graphic-design/swift03.png" alt="">
+                    <img src="/images/graphic-design/swift04.png" alt="">
+                    <img src="/images/graphic-design/swift05.png" alt="">
+                    <img src="/images/graphic-design/swift06.png" alt="">
+                    <img src="/images/graphic-design/swift07.png" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Designed for heart-to-heart communication.
+                    </p>
+                </div>
+
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

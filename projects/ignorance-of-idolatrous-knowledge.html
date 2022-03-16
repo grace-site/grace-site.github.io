@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Ignorance of Idolatrous Knowledge</h1>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe src="https://player.vimeo.com/video/422170707" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        "Ignorance of Idolatrous Knowledge", 2020
+                        <br>
+                        Generative Adversarial Network and feature extractor with TensorFlow.keras
+                        <br>
+                        <br>
+                        “Ignorance of Idolatrous Knowledge” is a machine learning art piece that attempts to reveal the ignorance of artificial intelligence.
+                
+                    </p>
+                </div>
+                <div class="two-column-wrapper">
+                    <img src="/images/coding/ignorance01.png" alt="">
+                    <img src="/images/coding/ignorance01.png" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Often feared by the public as maleficent robots with individual discretion, AI is actually very uncreative in the sense that it cannot go beyond the boundaries of its knowledge. In this piece, a GAN is trained to generate images of idols, whereupon when fed with images of humans, it knows only to idolize them. This act of idolatry parallels the ignorance of humans when mankind refuses to acknowledge his Creator God. Just as a machine that recognizes its programmer will be deemed the most intelligent AI ever lived, true wisdom comes from knowing God.
+                        <br>
+                        <br>
+                        For more documentation, click this 
+                        <a href="/pdf/Ignorance of Idolatrous Idols.pdf" target="_blank">
+                            pdf
+                            <i data-feather="external-link" class="px12" onclick="backpage()"></i>
+                        </a>.
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

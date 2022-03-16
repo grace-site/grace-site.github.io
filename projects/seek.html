@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">seek</h1>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe src="https://player.vimeo.com/video/686977652" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        "Seek", 2018
+                        <br>
+                        Generative art created with Processing
+                        <br>
+                        <br>
+                        “Seek,” as if wandering the earth seeking a home.
+                        <br>
+                        <br>
+                        This piece was inspired by Casey Reas' concept of Element 1, which creates many
+                        circles and draws a line between the centers of overlapping circles. The color of lines
+                        depend on the line's length: the longer, the blacker. The sketch is interactive with the
+                        mouse - where the mouse is, nearby circles enlarge in radii. This result in aesthetic
+                        black spots that extend and spread across the canvas. The audio is composed of two
+                        parts: the low, grumbling wind ambience, and the harmonious violin chords. The pitch of
+                        the wind is variable based on line lengths, its amplitude based on noise and time. The
+                        chord progression is based on music theory chord map. Minor and major chords are
+                        chosen depending on how black the sketch appears at the moment.
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

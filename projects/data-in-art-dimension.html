@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Data in Art Dimension</h1>
+                </div>
+                <img src="/images/installation/data01.JPG" alt="">
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN & Hoi Yan LAW
+                        <br>
+                        "Data in Art Dimension", 2020
+                        <br>
+                        Wire and clay sculpture, 26cm x 27cm x 34cm
+                    </p>
+                </div><div class="two-column-wrapper">
+                    
+                    <img src="/images/installation/data02.JPG" alt="">
+                    <img src="/images/installation/data04.png" alt="">
+                    
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Data in Art-dimension is a sculpture presentation of statistical data. Crafted in the form
+                        of a tree, its trunk and branches are twisted with metal
+                        wire, accompanied by colorful leaves sculpted with ultralight clay. The data visualized in
+                        the work is that of “Global CO 2 concentrations” provided by National Oceanic and
+                        Atmospheric Administration, recording the global CO 2 concentration (parts per million) 6
+                        across a span of 37 years (1980-2016).
+                    </p>
+                </div><div class="two-column-wrapper">
+                    <img src="/images/installation/data06.png" alt="">
+                    <img src="/images/installation/data05.JPG" alt="">
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        In the data sculpture, each plot of point is “graphed” as a leaf, 37 leaves in total. The
+                        size of the surface area of each leaf represents the year, while the color represents the
+                        amount of CO 2
+                        . Leaves representing recent years are relatively smaller while leaves
+                        representing earlier years are larger. Precisely, the leaf representing the year 1980 has
+                        an area of 5.0cm 2
+                        . Each leaf of the consequential year would be 0.5cm 2
+                        larger.
+                        <br>
+                        <br>
+                        For more documentation, click this 
+                        <a href="/pdf/Data in Art Dimension.pdf" target="_blank">
+                            pdf
+                            <i data-feather="external-link" class="px12" onclick="backpage()"></i>
+                        </a>.
+
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header-component></header-component>
+        
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Switched match</h1>
+                </div>
+                
+                <a href="https://grace-truthseeker.github.io/flipped/html/p1.html" target="_blank">
+                    <img src="/images/coding/switched01.png" alt="" >
+                </a>
+                
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        "Switched Match", 2018
+                        <br>
+                        Web game programmed with html, css, javascript
+                        <br>
+                        <br>
+                        A memory matching game, except after you flipped two cards over, they switch positions. 
+                        <br>
+                        Click 
+                        <a href="https://grace-truthseeker.github.io/flipped/html/p1.html" target="_blank">
+                            here
+                            <i data-feather="external-link" class="px12" onclick="backpage()"></i>
+                        </a> to play now.
+                        <br>
+                        <br>
+                        Available in single and  double player modes. Three levels of difficulties. 
+                        Score is calculated based on the time and number of moves used to complete the game. 
+                        When in double player mode, the player who makes a match gets to go again.
+
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body> 
+</html>
