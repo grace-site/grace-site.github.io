@@ -86,6 +86,11 @@ const projects = [
     "/images/icons/individualist00.png",
     "coding"],
 
+    ["Tong",
+    "/projects/tong.html",
+    "/images/icons/tong00.jpg",
+    "animation"],
+
     ["Mr. Mould Moose",
     "/projects/mr-mould-the-moose.html",
     "/images/icons/moose00.jpg",
@@ -110,6 +115,11 @@ const projects = [
     "/projects/eves-bite.html",
     "/images/icons/eves00.png",
     "animation"],
+
+    ["Book Illustrations",
+    "/projects/book-illustrations.html",
+    "/images/icons/book00.png",
+    "fine-art"],
 
     ["Idea Campaign",
     "/projects/idea-campaign.html",
