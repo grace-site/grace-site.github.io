@@ -110,13 +110,14 @@ class OtherWorks extends HTMLElement {
                 <div class="back-to-projects">Back to Projects</div>
         </a>
         <div class="other-works-wrapper">
-                <div class="other-works-title">Other works in</div>
+                <div class="other-works-title">
+                    <h2>Other works</h2>
+                </div>
                 <div class="other-works three-column-wrapper"></div>
         </div>
         `;
 }
 
 }
-
 
 customElements.define('other-works-component', OtherWorks);
