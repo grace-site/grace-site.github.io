@@ -120,6 +120,11 @@ const projects = [
     "/projects/book-illustrations.html",
     "/images/icons/book00.png",
     "fine-art"],
+    
+    ["Wedding Invitation",
+    "/projects/wedding-invitation.html",
+    "/images/icons/wedding00.jpg",
+    "graphic-design"],
 
     ["Idea Campaign",
     "/projects/idea-campaign.html",
