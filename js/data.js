@@ -11,12 +11,12 @@ const projects = [
     "/images/icons/seek00.png",
     "coding"],
     
-    ["Ignorance of idolatrous knowledge", 
+    ["Ignorance of Idolatrous Knowledge", 
     "/projects/ignorance-of-idolatrous-knowledge.html", 
     "/images/icons/ignorance00.png", 
     "coding"],
 
-    ["Blue blooms",
+    ["Blue Blooms",
     "/projects/blue-blooms.html",
     "/images/icons/blue00.jpg",
     "fine-art"],
@@ -61,7 +61,7 @@ const projects = [
     "/images/icons/eeyores00.png",
     "animation"],
 
-    ["Eis",
+    ["eis",
     "/projects/eis.html",
     "/images/icons/eis00.png",
     "animation"],
@@ -91,7 +91,7 @@ const projects = [
     "/images/icons/tong00.jpg",
     "animation"],
 
-    ["Mr. Mould Moose",
+    ["Mr. Mould the Moose",
     "/projects/mr-mould-the-moose.html",
     "/images/icons/moose00.jpg",
     "fine-art"],
@@ -151,7 +151,7 @@ const projects = [
     "/images/icons/hole00.jpg",
     "animation"],
 
-    ["Shower bed",
+    ["Shower Bed",
     "/projects/shower-bed.html",
     "/images/icons/shower00.jpg",
     "animation"],
