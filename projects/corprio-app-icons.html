@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiu Yan Chan</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <meta property="og:title" content="Corprio App Icons">
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="App icons designed for the Corprio business management platform.">
+    <meta name="description" content="App icons designed for the Corprio business management platform.">
+    <meta property="og:image" content="https://grace-site.github.io/images/thumbnails/corprioicons00.png">
+    <meta property="og:url" content="https://grace-site.github.io/projects/corprio-app-icons.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="/js/data.js" type="text/babel"></script>
+
+    <script src="/js/components.js" type="text/javascript"></script>
+    <script src="/js/main.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header-component></header-component>
+
+        <div class="content-wrapper">
+            <div class="main-content-wrapper">
+                <div class="title-wrapper">
+                    <i data-feather="chevron-left" class="back-icon" onclick="backpage()"></i>
+                    <h1 class="project-title">Corprio App Icons</h1>
+                </div>
+
+                <img src="/images/graphic-design/corprioicons01.png" alt="" class="drop-shadow">
+
+                <div class="text-wrapper">
+                    <p>
+                        Hiu Yan CHAN
+                        <br>
+                        Corprio App Icons, 2023
+                        <br>
+                        Vector app icons designed in Inkscape
+                        <br>
+                        <br>
+                        I designed this set of app icons for the Corprio app suite. To start off, I wanted there to be a
+                        consistent theme tying them all together. Upon studying the Corprio logo, I wanted to replicate
+                        the thin,
+                        sleek lines as the uniting element. Each icon must be simple yet unique enough in shape and
+                        color to be easily
+                        distinguished from the others, and representative of its application sector.
+                        <br>
+                        <br>
+                        For each icon, I made two versions to accomodate for versatility in the web environment.
+                        One with a colored background, and another with a transparent background.
+                    </p>
+                </div>
+
+                <img src="/images/graphic-design/corprioicons02.png" alt="" class="drop-shadow">
+                <div class="text-wrapper">
+                    <p>
+                        The colored-background icons were exported as a square, so that the rounded corners and drop
+                        shadows may be later added by
+                        css in the browser for the best user experience and web consistency.
+                        <br>
+                        <br>
+                        Besides designing the app icons, I also transformed the UI/UX experience by reimagining what I
+                        considered
+                        as a better user experience on both large screens and mobile devices. I stuck to simple, and
+                        conventional placement
+                        of navigational buttons to provide the most intuitive flow possible.
+                        I also switched up the colors and styles for a more coherent, modern look.
+                        Here are some snippets of the before and after:
+                    </p>
+                </div>
+                <div class="two-column-wrapper">
+                    <div>
+                        <h3 class="text-center">Before</h3>
+                        <img src="/images/graphic-design/corprioicons03.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-center">After</h3>
+                        <img src="/images/graphic-design/corprioicons04.png" alt="">
+                    </div>
+                </div>
+                <div class="text-wrapper">
+                    <p>
+                        Here's another comparison for the landing page of an application. Not only did I put thought
+                        into a better interface,
+                        I polished up the content wordings so that it sells clearly the product we are offering,
+                        accompanied with screenshots
+                        of the app just to make things super easy to understand. I removed the menu bar on the left
+                        because the links were not
+                        applicable to the user before they logged in to the app.
+                    </p>
+                </div>
+                <h3 class="text-center">Before</h3>
+                <img src="/images/graphic-design/corprioicons05.jpeg" class="drop-shadow" alt="">
+                <h3 class="text-center">After</h3>
+                <img src="/images/graphic-design/corprioicons06.png" class="drop-shadow" alt="">
+
+                <div class="text-wrapper">
+                    <p>
+                        To make the page look more modern and interesting, I designed and coded an animation for the 
+                        landing page programmed in just css. This makes for smooth, crisp, lightweight animation.
+                        I wish our company used sass in our stack, but I worked it out nonetheless 
+                        using some C# for loops to generate the repetitive css.
+                    </p>
+                </div>
+
+                <style>
+                    body {
+                        --faint-grey: #f6f7f7;
+                        --lighter-grey: #d3d5d5;
+                        --light-grey: #a9afaf;
+                        --grey: #7a8787;
+                        --dark-grey: #596262;
+                        --darker-grey: #2d3232;
+                        --faint-blue: #e8f4ff;
+                        --lighter-blue: #d1e1ff;
+                        --light-blue: #5c85ff;
+                        --blue: #476cff;
+                        --med-blue: #4162e8;
+                        --dark-blue: #3651c0;
+                        --darker-blue: #2d439f;
+                        --green: #7bc21d;
+                        --pink: #fa5252;
+                        --orange: #ffab15
+                    }
+
+                    .flex-center {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center
+                    }
+
+
+                    .stack-vert {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center
+                    }
+
+                    @keyframes kf-orbit {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+
+                        100% {
+                            transform: rotate(360deg);
+                        }
+                    }
+
+                    @keyframes kf-rotate {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+
+                        100% {
+                            transform: rotate(-360deg);
+                        }
+                    }
+
+                    .anim-wrapper {
+                        --inner-scale: 0.7;
+                        position: relative;
+                        width: 100%;
+                        padding-top: 100%;
+                        --icn-w: 9%;
+                        --inner-w: calc(100% * var(--inner-scale));
+                        --outer-w: 100%;
+                        --Corprio-w: 35%;
+                        --inner-duration: 30s;
+                        --outer-duration: 50s;
+                        overflow: hidden;
+                    }
+
+                    .anim-absolute {
+                        position: absolute;
+                        top: 5%;
+                        right: 5%;
+                        bottom: 5%;
+                        left: 5%;
+                    }
+
+                    .anim-relative {
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .anim-ring {
+                        background: grey;
+                        border-radius: 50%;
+                        padding: 3px;
+                    }
+
+                    .anim-ring.inner {
+                        width: calc(var(--inner-w) - var(--icn-w));
+                        height: calc(var(--inner-w) - var(--icn-w));
+                        animation-duration: var(--inner-duration);
+                        background: linear-gradient(45deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 80%);
+                    }
+
+                    .anim-ring.outer {
+                        width: calc(var(--outer-w) - var(--icn-w));
+                        height: calc(var(--outer-w) - var(--icn-w));
+                        animation-duration: var(--outer-duration);
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 95%);
+                    }
+
+                    .anim-ring div {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        background-color: white;
+                    }
+
+                    .anim-outer,
+                    .anim-inner {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+
+                    .anim-orbits,
+                    .anim-ring {
+                        pointer-events: none;
+                        position: absolute;
+                        animation-name: kf-orbit;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;
+                    }
+
+                    .anim-inner .anim-orbits {
+                        width: var(--inner-w);
+                        height: var(--inner-w);
+                        animation-duration: var(--inner-duration);
+                    }
+
+                    .anim-outer .anim-orbits {
+                        width: var(--outer-w);
+                        height: var(--outer-w);
+                        animation-duration: var(--outer-duration);
+                    }
+
+                    .anim-orbit {
+                        pointer-events: none;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .anim-inner .anim-icn-wrapper {
+                        width: calc(var(--icn-w) / var(--inner-scale));
+                        height: calc(var(--icn-w) / var(--inner-scale));
+                    }
+
+                    .anim-outer .anim-icn-wrapper {
+                        width: var(--icn-w);
+                        height: var(--icn-w);
+                    }
+
+
+                    .anim-inner .anim-orbit:nth-child(0) {
+                        transform: rotate(2deg)
+                    }
+
+                    .anim-inner .anim-orbit:nth-child(0) .anim-icn-wrapper {
+                        transform: rotate(-2deg)
+                    }
+
+                    .anim-inner .anim-orbit:nth-child(1) {
+                        transform: rotate(110deg)
+                    }
+
+                    .anim-inner .anim-orbit:nth-child(1) .anim-icn-wrapper {
+                        transform: rotate(-110deg)
+                    }
+
+                    .anim-inner .anim-orbit:nth-child(2) {
+                        transform: rotate(202deg)
+                    }
+
+                    .anim-inner .anim-orbit:nth-child(2) .anim-icn-wrapper {
+                        transform: rotate(-202deg)
+                    }
+
+                    .anim-inner .anim-orbit:nth-child(3) {
+                        transform: rotate(296deg)
+                    }
+
+                    .anim-inner .anim-orbit:nth-child(3) .anim-icn-wrapper {
+                        transform: rotate(-296deg)
+                    }
+
+
+                    .anim-outer .anim-orbit:nth-child(0) {
+                        transform: rotate(7deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(0) .anim-icn-wrapper {
+                        transform: rotate(-7deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(1) {
+                        transform: rotate(72deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(1) .anim-icn-wrapper {
+                        transform: rotate(-72deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(2) {
+                        transform: rotate(132deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(2) .anim-icn-wrapper {
+                        transform: rotate(-132deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(3) {
+                        transform: rotate(191deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(3) .anim-icn-wrapper {
+                        transform: rotate(-191deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(4) {
+                        transform: rotate(264deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(4) .anim-icn-wrapper {
+                        transform: rotate(-264deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(5) {
+                        transform: rotate(306deg)
+                    }
+
+                    .anim-outer .anim-orbit:nth-child(5) .anim-icn-wrapper {
+                        transform: rotate(-306deg)
+                    }
+
+                    .anim-icn {
+                        pointer-events: initial;
+                        display: block;
+                        width: var(--icn-w);
+                        height: var(--icn-w);
+                        animation-name: kf-rotate;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                    }
+
+                    .anim-inner .anim-icn {
+                        animation-duration: var(--inner-duration);
+                    }
+
+                    .anim-outer .anim-icn {
+                        animation-duration: var(--outer-duration);
+                    }
+
+                    .anim-Corprio {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: var(--Corprio-w);
+                        height: 100%
+                    }
+
+                    .anim-Corprio img {
+                        width: 100%;
+                        position: relative;
+                        z-index: 1;
+                    }
+
+                    .anim-icn img {
+                        border-radius: 20%;
+                        box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    .anim-icn:hover img {
+                        transform: scale(1.1);
+                    }
+
+                    .anim-icn-name {
+                        position: absolute;
+                        top: 110%;
+                        text-align: center;
+                        left: -60%;
+                        right: -60%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: none;
+                    }
+
+                    .anim-icn-name span {
+                        background-color: rgba(255, 255, 255, .5);
+                        border-radius: 0.2rem;
+                        padding-left: 0.2rem;
+                        padding-right: 0.2rem;
+                        font-size: .8rem;
+                        width: fit-content;
+                        margin: auto;
+                    }
+
+
+                    .anim-icn:hover .anim-icn-name,
+                    .anim-icn-name:hover {
+                        display: block;
+                    }
+
+                    /* top banner */
+                    #portal-banner {
+                        position: relative;
+                        --anim-w: 80vw;
+                        --anim-h: 40vw;
+                        height: var(--anim-h);
+                        width: 100%;
+                    }
+
+                    #portal-banner .bkgd {
+                        position: absolute;
+                        background-color: var(--blue);
+                        background: linear-gradient(45deg, var(--dark-blue) 0%, var(--blue) 20%, var(--light-blue) 80%, var(--lighter-blue) 100%);
+                        height: var(--anim-h);
+                        width: 100%;
+                        display: block;
+                        overflow: hidden;
+                    }
+
+                    #portal-banner .bkgd #orbit-wrapper {
+                        position: absolute;
+                        top: calc((var(--anim-w) - var(--anim-h)) / -2);
+                        left: calc((var(--anim-w) - 100%) / -2);
+                    }
+
+                    #portal-banner .bkgd #orbit {
+                        width: var(--anim-w);
+                    }
+
+                    #portal-banner .fgnd {
+                        color: white;
+                        text-align: center;
+                        position: relative;
+                        z-index: 1;
+                        height: 100%;
+                    }
+
+                    #portal-banner .fgnd img {
+                        width: 20rem;
+                        margin-bottom: 2rem;
+                    }
+
+                    #portal-banner .fgnd p {
+                        font-size: 1.2rem;
+                        margin-bottom: 0.3rem;
+                        margin-top: 0;
+                    }
+
+                    /* override orbiting apps animation styles */
+                    #orbit .anim-ring div {
+                        background-color: var(--blue);
+                        background: linear-gradient(45deg, var(--dark-blue) 0%, var(--blue) 20%, var(--light-blue) 80%, var(--lighter-blue) 100%);
+                    }
+
+                    #orbit .anim-ring.outer {
+                        background-color: white;
+                        background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 95%);
+                    }
+
+                    #orbit .anim-ring.inner {
+                        background-color: white;
+                        background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 95%);
+                    }
+
+                    #orbit .anim-icn img {
+                        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.44);
+                    }
+
+
+                    /* bootstrap medium screen breakpoint*/
+                    @media screen and (max-width: 767.9px) {
+
+                        #portal-banner {
+                            --anim-w: 120vw;
+                            --anim-h: 60vw;
+                        }
+                    }
+
+
+                    /* bootstrap small screen breakpoint*/
+                    @media screen and (max-width: 575.9px) {
+
+                        #portal-banner {
+                            --anim-w: 160vw;
+                            --anim-h: 120vw;
+                        }
+
+                        #portal-banner .fgnd img {
+                            width: 15rem;
+                            margin-bottom: 1.5rem;
+                        }
+
+                        #portal-banner .fgnd p {
+                            font-size: 1rem;
+                            margin-bottom: 0rem;
+                        }
+                    }
+                </style>
+                <div id="portal-banner">
+                    <div class="bkgd">
+                        <div id="orbit-wrapper">
+                            <div id="orbit">
+                                <div class="anim-wrapper">
+                                    <div class="anim-absolute">
+                                        <div class="anim-relative">
+
+                                            <div class="anim-ring outer">
+                                                <div></div>
+                                            </div>
+                                            <div class="anim-ring inner">
+                                                <div></div>
+                                            </div>
+
+                                            <div class="anim-outer">
+                                                <div class="anim-orbits">
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-apparel"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-apparel.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Apparel</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-payvendor"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-payvendor.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Payout</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-customerpayment"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-customerpayment.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Collect</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-inventorymaster"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-inventorymaster.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Inventory</span></div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-purchasemaster"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-purchasemaster.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Purchase</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-salesmaster"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-salesmaster.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Sales</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="anim-inner">
+                                                <div class="anim-orbits">
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-vendor"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-vendor.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Supplier</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-customer"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-customer.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Customer</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-productmaster"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-productmaster.png">
+                                                                <div class="anim-icn-name"><span>Corprio
+                                                                        Product</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="anim-orbit">
+                                                        <div class="anim-icn-wrapper">
+                                                            <a class="anim-icn"
+                                                                href="https://portal.corprio.com/Application/Details/corprio-mobilePOS-lite"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="/images/graphic-design/corprioicons/corprio-mobilePOS-lite.png">
+                                                                <div class="anim-icn-name"><span>Corprio POS
+                                                                        (Lite)</span></div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="anim-Corprio">
+                                                <a href="https://portal.corprio.com/" target="_blank">
+
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fgnd flex-center">
+                        <div class="stack-vert">
+                            <img src="/images/graphic-design/corprioicons/corprio_logo_rgb_white.png">
+                            <p>Tailor-make your</p>
+                            <p>business management platform</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-wrapper">
+                    <p>
+                        To see the animation on the actual website, feel free to visit the 
+                        <a href="https://portal.corprio.com/" target="_blank">Corprio website <i data-feather="external-link" class="px12"></i></a> to take a look, if it's still up.
+                    </p>
+                </div>
+            </div>
+            <other-works-component></other-works-component>
+        </div>
+        <footer-component></footer-component>
+    </div>
+</body>
+
+</html>

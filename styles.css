@@ -18,6 +18,10 @@ a{
     text-decoration: none;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* nav styles */
 
 .nav-wrapper{
