@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                     <i data-feather="menu" class="menu-icon"></i>
                 </div>
                 <div class="brand">
-                    <a href="/">Hiu Yan Chan</a>
+                    <a href="/">Grace Chan</a>
                     <div> Creative media artist & programmer </div>
                 </div>
                 
@@ -82,9 +82,9 @@ class Footer extends HTMLElement {
                 <br>
                 https://grace-site.github.io/
                 <br>
-                All content by Hiu Yan Chan and collaborators. 
+                All content by Grace Chan and collaborators. 
                 <br>
-                Website designed and coded by Hiu Yan Chan, open source on Github.
+                Website designed and coded by Grace Chan, open source on Github.
                 <br>
                 Content and design are distributed under a Creative Commons license, when permitted. 
             </p>
