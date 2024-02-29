@@ -32,30 +32,30 @@ class Header extends HTMLElement {
                                 <a href="/">All</a>
                             </div>
                             <div id="nav-coding" class="dropdown-item">
-                                <a href="/coding.html">Coding</a>
+                                <a href="/coding">Coding</a>
                             </div>
                             <div id="nav-installation" class="dropdown-item">
-                                <a href="/installation.html">Installation</a>
+                                <a href="/installation">Installation</a>
                             </div>
                             <div id="nav-animation" class="dropdown-item">
-                                <a href="/animation.html">Animation</a>
+                                <a href="/animation">Animation</a>
                             </div>
                             <div id="nav-graphic-design" class="dropdown-item">
-                                <a href="/graphic-design.html">Graphic design</a>
+                                <a href="/graphic-design">Graphic design</a>
                             </div>
                             <div id="nav-fine-art" class="dropdown-item">
-                                <a href="/fine-art.html">Fine art</a>
+                                <a href="/fine-art">Fine art</a>
                             </div>
                         </div>
                         
                     </div>
                 </div>
                 <div class="nav-link-wrapper">
-                    <a href="/about.html">About</a>
+                    <a href="/about">About</a>
                 </div>
 
                 <div class="nav-link-wrapper">
-                    <a href="/contact.html">Contact</a>
+                    <a href="/contact">Contact</a>
                 </div>
                 
             </div>
