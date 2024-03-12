@@ -37,132 +37,6 @@ const projects = [
         genre: "fine-art"
     },
     {
-        name: "Corprio web app",
-        url: "/projects/corprio-web-app",
-        iconUrl: "/images/icons/corprioweb00.png",
-        genre: "coding"
-    },
-    {
-        name: "eis",
-        url: "/projects/eis",
-        iconUrl: "/images/icons/eis00.png",
-        genre: "animation"
-    },{
-        name: "Switched Match",
-        url: "/projects/switched-match",
-        iconUrl: "/images/icons/switched00.png",
-        genre: "coding"
-    },
-    {
-        name: "Claw Machine",
-        url: "/projects/claw-machine",
-        iconUrl: "/images/icons/claw00.png",
-        genre: "coding"
-    },
-    {
-        name: "Corprio app icons",
-        url: "/projects/corprio-app-icons",
-        iconUrl: "/images/icons/corprioicons00.png",
-        genre: "graphic-design"
-    },
-    
-    {
-        name: "A Dream Come True",
-        url: "/projects/a-dream-come-true",
-        iconUrl: "/images/icons/dream00.jpg",
-        genre: "animation"
-    },
-    {
-        name: "Individualist Chess",
-        url: "/projects/individualist-chess",
-        iconUrl: "/images/icons/individualist00.png",
-        genre: "coding"
-    },
-    {
-        name: "Mr. Mould the Moose",
-        url: "/projects/mr-mould-the-moose",
-        iconUrl: "/images/icons/moose00.jpg",
-        genre: "fine-art"
-    },
-    {
-        name: "Venice",
-        url: "/projects/venice",
-        iconUrl: "/images/icons/venice00.jpg",
-        genre: "fine-art"
-    },
-    {
-        name: "For Aunt Muriel",
-        url: "/projects/for-aunt-muriel",
-        iconUrl: "/images/icons/muriel00.jpg",
-        genre: "fine-art"
-    },
-    {
-        name: "Reflection",
-        url: "/projects/reflection",
-        iconUrl: "/images/icons/reflection00.jpg",
-        genre: "fine-art"
-    },
-    {
-        name: "Eve's Bite",
-        url: "/projects/eves-bite",
-        iconUrl: "/images/icons/eves00.png",
-        genre: "animation"
-    },
-    {
-        name: "Swift to Hear",
-        url: "/projects/swift-to-hear",
-        iconUrl: "/images/icons/swift00.png",
-        genre: "graphic-design"
-    },
-    {
-        name: "Book Illustrations",
-        url: "/projects/book-illustrations",
-        iconUrl: "/images/icons/book00.png",
-        genre: "fine-art"
-    },
-    {
-        name: "Wedding Invitation",
-        url: "/projects/wedding-invitation",
-        iconUrl: "/images/icons/wedding00.jpg",
-        genre: "graphic-design"
-    },
-    {
-        name: "Idea Campaign",
-        url: "/projects/idea-campaign",
-        iconUrl: "/images/icons/idea00.png",
-        genre: "graphic-design"
-    },
-    {
-        name: "Inclusion Ambassadors",
-        url: "/projects/inclusion-ambassadors",
-        iconUrl: "/images/icons/ia00.png",
-        genre: "graphic-design"
-    },
-    {
-        name: "IA Logo",
-        url: "/projects/ia-logo",
-        iconUrl: "/images/icons/logo00.png",
-        genre: "graphic-design"
-    },
-    {
-        name: "Clockbeat",
-        url: "/projects/clockbeat",
-        iconUrl: "/images/icons/clockbeat00.jpg",
-        genre: "installation"
-    },
-    {
-        name: "Hole in the Ground",
-        url: "/projects/hole-in-the-ground",
-        iconUrl: "/images/icons/hole00.jpg",
-        genre: "animation"
-    },
-    {
-        name: "Tong",
-        url: "/projects/tong",
-        iconUrl: "/images/icons/tong00.jpg",
-        genre: "animation"
-    },
-    {
         name: "Cinderella",
         url: "/projects/cinderella",
         iconUrl: "/images/icons/cinderella00.jpg",
@@ -196,6 +70,131 @@ const projects = [
         name: "Eeyores",
         url: "/projects/eeyores",
         iconUrl: "/images/icons/eeyores00.png",
+        genre: "animation"
+    },
+    {
+        name: "Mr. Mould the Moose",
+        url: "/projects/mr-mould-the-moose",
+        iconUrl: "/images/icons/moose00.jpg",
+        genre: "fine-art"
+    },
+    {
+        name: "Venice",
+        url: "/projects/venice",
+        iconUrl: "/images/icons/venice00.jpg",
+        genre: "fine-art"
+    },
+    {
+        name: "For Aunt Muriel",
+        url: "/projects/for-aunt-muriel",
+        iconUrl: "/images/icons/muriel00.jpg",
+        genre: "fine-art"
+    },
+    {
+        name: "Reflection",
+        url: "/projects/reflection",
+        iconUrl: "/images/icons/reflection00.jpg",
+        genre: "fine-art"
+    },
+    {
+        name: "Eve's Bite",
+        url: "/projects/eves-bite",
+        iconUrl: "/images/icons/eves00.png",
+        genre: "animation"
+    },
+    {
+        name: "Book Illustrations",
+        url: "/projects/book-illustrations",
+        iconUrl: "/images/icons/book00.png",
+        genre: "fine-art"
+    },
+    {
+        name: "Corprio web app",
+        url: "/projects/corprio-web-app",
+        iconUrl: "/images/icons/corprioweb00.png",
+        genre: "coding"
+    },
+    {
+        name: "eis",
+        url: "/projects/eis",
+        iconUrl: "/images/icons/eis00.png",
+        genre: "animation"
+    },{
+        name: "Switched Match",
+        url: "/projects/switched-match",
+        iconUrl: "/images/icons/switched00.png",
+        genre: "coding"
+    },
+    {
+        name: "Claw Machine",
+        url: "/projects/claw-machine",
+        iconUrl: "/images/icons/claw00.png",
+        genre: "coding"
+    },
+    {
+        name: "Corprio app icons",
+        url: "/projects/corprio-app-icons",
+        iconUrl: "/images/icons/corprioicons00.png",
+        genre: "graphic-design"
+    },
+    {
+        name: "A Dream Come True",
+        url: "/projects/a-dream-come-true",
+        iconUrl: "/images/icons/dream00.jpg",
+        genre: "animation"
+    },
+    {
+        name: "Swift to Hear",
+        url: "/projects/swift-to-hear",
+        iconUrl: "/images/icons/swift00.png",
+        genre: "graphic-design"
+    },
+    {
+        name: "Wedding Invitation",
+        url: "/projects/wedding-invitation",
+        iconUrl: "/images/icons/wedding00.jpg",
+        genre: "graphic-design"
+    },
+    {
+        name: "Individualist Chess",
+        url: "/projects/individualist-chess",
+        iconUrl: "/images/icons/individualist00.png",
+        genre: "coding"
+    },
+    {
+        name: "Idea Campaign",
+        url: "/projects/idea-campaign",
+        iconUrl: "/images/icons/idea00.png",
+        genre: "graphic-design"
+    },
+    {
+        name: "IA Logo",
+        url: "/projects/ia-logo",
+        iconUrl: "/images/icons/logo00.png",
+        genre: "graphic-design"
+    },
+    {
+        name: "Clockbeat",
+        url: "/projects/clockbeat",
+        iconUrl: "/images/icons/clockbeat00.jpg",
+        genre: "installation"
+    },
+    {
+        name: "Hole in the Ground",
+        url: "/projects/hole-in-the-ground",
+        iconUrl: "/images/icons/hole00.jpg",
+        genre: "animation"
+    },
+    {
+        name: "Inclusion Ambassadors",
+        url: "/projects/inclusion-ambassadors",
+        iconUrl: "/images/icons/ia00.png",
+        genre: "graphic-design"
+    },
+    {
+        name: "Tong",
+        url: "/projects/tong",
+        iconUrl: "/images/icons/tong00.jpg",
         genre: "animation"
     },
     {
